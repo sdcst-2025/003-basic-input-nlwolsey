@@ -1,5 +1,5 @@
 ## SDSS Computing Studies Python Assignment
-### Assignment #xx <Title> (Total Marks xx)
+### Assignment #4 Using Input() (Total Marks 10)
 
 Objectives:
 * Use the input() function to retrieve information from the keyboard
