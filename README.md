@@ -17,16 +17,25 @@ x = float(x)  # converts x into a float
 a = int(b)    # converts b into an integer and stores it into a new variable, a
 ```
 
+You can also cast directly at the time that you retrieve your input:
+```
+x = int( input("Enter a number") )
 Casting is very important if you want to retrieve a number from input and use it in a calculation.
+
+**Important Note about the Autograder**
+The autograder sometimes includes the ENTER key when it retrieves input.  This means that your input may have a hidden/unseen character that is attached to the end of your string literal.  If you cast it as a number, this is not a problem, however, it IS a problem for the autograder.  To correct this, we add the ".strip()" method to the end of your input to strip the hidden characters.
+
+```
+x = input("What is your name?").strip()
 
 ### 5 Tasks
 
-**Note: Today you will be using Github Desktop to clone the repository to your local computer, and then
-commit all of the files at once**
+**Note: Today you will be using Github Desktop to clone the repository to your local computer, and then commit all of the files at once**
 
 ##### Task 1
 Ask the user for their name and their email address.\
 Display the output back to the user in the following format:\
+You will need to use the .strip() method for this assignment. Be aware of your punctuation!
 ```
 Your name is Joe Lunchbox, and your email is joe@koolsandwiches.org.
 ```
