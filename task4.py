@@ -1,15 +1,18 @@
 #! python3
 #
-# Find the hypotenuse
-# Your program will ask the user to enter in the 2 short sides of a right triangle.
-# You will calculate the length of the hypotenuse and display the result.
-# You will need to use the math module to use the command that finds the square root.
+# Surface area of a cone
+# Find the surface area of a cone given the height and the radius.
+# You will need to ask the user to enter in both variables, and will 
+# need to use the Pythagorean relationship to find the slant height. 
+# (2 points)
 #
 # Inputs:
-# side, side
+# height, radius
 #
 # Outputs:
-# hypotenuse
+# surface area
 #
 # Test output
-# input sides of 5 and 7 should give hypotenuse of 8.60232526704
+# r = 3
+# h = 5
+# sa = 83.2297607912
