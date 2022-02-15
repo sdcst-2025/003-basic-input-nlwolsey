@@ -22,11 +22,7 @@ You can also cast directly at the time that you retrieve your input:
 x = int( input("Enter a number") )
 Casting is very important if you want to retrieve a number from input and use it in a calculation.
 
-**Important Note about the Autograder**
-The autograder sometimes includes the ENTER key when it retrieves input.  This means that your input may have a hidden/unseen character that is attached to the end of your string literal.  If you cast it as a number, this is not a problem, however, it IS a problem for the autograder.  To correct this, we add the ".strip()" method to the end of your input to strip the hidden characters.
-
 ```
-x = input("What is your name?").strip()
 
 ### 5 Tasks
 
@@ -57,10 +53,9 @@ You will need to display the solution for the equation
 (2 points)
 
 #### Task 4
-Find the hypotenuse\
-Your program will ask the user to enter in the 2 short sides of a right triangle.\
-You will calculate the length of the hypotenuse and display the result.\
-You will need to use the *math* module to use the command that finds the square root.\
+Find the surface area of a cone given the height and the radius.\
+You will need to ask the user to enter in both variables, and will
+need to use the Pythagorean relationship to find the slant height.
 (2 points)
 
 #### Task 5
