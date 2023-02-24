@@ -6,8 +6,6 @@
 # stored into the variable "data"
 # the contents of the parentheses are displayed as output
 data = input("Please enter some data and then press the Enter Key")
-# the autograder is going to read the Enter key, so we need to strip it from the command
-data = data.strip()
 
 
 # the entry is displayed back to the user but prefixed with 
@@ -21,5 +19,4 @@ print("\n\n\n\n\n\n\n\n")
 # the string literal
 question = "How are you feeling today?"
 response = input(question)
-# removes the trailing newline from the response
-response = response.strip()
+print(f"I am happy to hear that you are feeling {response}")

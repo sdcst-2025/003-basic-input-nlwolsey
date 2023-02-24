@@ -1,7 +1,6 @@
 #! python3
 """
 Ask the user for their name and their email address.
-You will need to use the .strip() method for this assignment. Be aware of your 
 (2 points)
 
 Inputs:

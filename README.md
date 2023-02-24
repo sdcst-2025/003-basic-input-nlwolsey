@@ -29,36 +29,34 @@ Casting is very important if you want to retrieve a number from input and use it
 **Note: Today you will be using Github Desktop to clone the repository to your local computer, and then commit all of the files at once**
 
 ##### Task 1
-Ask the user for their name and their email address.\
-Display the output back to the user in the following format:\
-You will need to use the .strip() method for this assignment. Be aware of your punctuation!
+Ask the user for their name and their email address.
+Display the output back to the user in the following format:
 ```
 Your name is Joe Lunchbox, and your email is joe@koolsandwiches.org.
 ```
 (2 points) 
 
 ##### Task 2
-Find the volume of a sphere.\
-You will ask the user to enter the radius of the sphere.\
-Calculate the Volume and then display the result to the user.\
-You will need to import the *math* module in order to use *math.pi*\
+Find the volume of a sphere.
+You will ask the user to enter the radius of the sphere.
+Calculate the Volume and then display the result to the user.
+You will need to import the *math* module in order to use *math.pi*
 Don't remember the formula for the volume of a sphere? You may need to look it up.
 (2 points)
 
 #### Task 3
-Solve a two step algebra equation.\
-Two steps equations are in the format *ax + b = c*\
-You will ask the user to enter in all 3 variables: a, b and c\
+Solve a two step algebra equation.
+Two steps equations are in the format *ax + b = c*
+You will ask the user to enter in all 3 variables: a, b and c
 You will need to display the solution for the equation
 (2 points)
 
 #### Task 4
-Find the surface area of a cone given the height and the radius.\
-You will need to ask the user to enter in both variables, and will
-need to use the Pythagorean relationship to find the slant height.
+Find the surface area of a cone given the height and the radius
+You will need to ask the user to enter in both variables, and will need to use the Pythagorean relationship to find the slant height.
 (2 points)
 
 #### Task 5
-Find the radius of a sphere if you are given the volume.\
-This is similar to task 2, but is the reverse!\
+Find the radius of a sphere if you are given the volume.
+This is similar to task 2, but is the reverse!
 (2 points)
